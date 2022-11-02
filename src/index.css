@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.boxWrapper {
+    padding: 20px;
+    min-width: 450px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.boxWrapper form {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: palevioletred;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+button {
+    background-color: palevioletred !important;
+}
